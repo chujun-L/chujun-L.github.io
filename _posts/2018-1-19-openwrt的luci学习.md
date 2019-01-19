@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ![](https://raw.githubusercontent.com/chujun-L/chujun-L.github.io/master/images/openwrt.png)
 ---
@@ -18,5 +18,3 @@ luci是基于Model-View-Controller (MVC)的web应用设计模式，luci使用UCI
 
 
 Nixio is the "Networking and I/O library for Lua."
-
-
