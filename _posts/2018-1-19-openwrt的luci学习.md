@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 ---
 ![](https://raw.githubusercontent.com/chujun-L/chujun-L.github.io/master/images/openwrt.png)
 ---
