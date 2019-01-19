@@ -1,5 +1,5 @@
 ![openwrt登陆界面](https://raw.githubusercontent.com/chujun-L/chujun-L.github.io/master/images/openwrt.png)
-#openwrt的luci学习
+# openwrt的luci学习
 ***
 luci是基于Model-View-Controller (MVC)的web应用设计模式，luci使用UCI的配置文件作为Model，使用UCI的配置语言CBI将UCI的配置文件转换成HTML格式作为View，然后lua脚本作为Controller。
 插入luci的目录结构
