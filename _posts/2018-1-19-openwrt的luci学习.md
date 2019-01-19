@@ -1,3 +1,6 @@
+---
+published: false
+---
 ![](https://raw.githubusercontent.com/chujun-L/chujun-L.github.io/master/images/openwrt.png)
 ---
 luci是基于Model-View-Controller (MVC)的web应用设计模式，luci使用UCI的配置文件作为Model，使用UCI的配置语言CBI将UCI的配置文件转换成HTML格式作为View，然后lua脚本作为Controller。
@@ -15,3 +18,5 @@ luci是基于Model-View-Controller (MVC)的web应用设计模式，luci使用UCI
 
 
 Nixio is the "Networking and I/O library for Lua."
+
+
