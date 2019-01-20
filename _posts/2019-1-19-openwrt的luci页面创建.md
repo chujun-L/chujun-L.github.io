@@ -20,6 +20,7 @@ function index()
     entry()
 end
 ```
+<<<<<<< HEAD
 module是lua语言的一个函数[lua参考手册](http://www.lua.org/manual/5.1/manual.html#pdf-module)
 
 entry是luci.dispatcher.lua里的一个函数，它的功能是创建一个web的调度节点[entry函数定义](https://htmlpreview.github.io/?https://raw.githubusercontent.com/openwrt/luci/master/documentation/api/modules/luci.dispatcher.html#entry)
@@ -87,3 +88,12 @@ return m
 
 
 从目录的路径我们可以知道，luci/controller/samba.lua这个文件其实可以理解为MVC的Controller，luci/model/cbi/samba.lua是MVC的Model，MVC的View在samba这个页面上并没有对应的html文件，其实是已经通过translate()函数来实现了。
+=======
+module是lua语言的一个函数[lua参考手册](http://www.lua.org/manual/5.1/manual.html#pdf-module)。
+
+entry是luci.dispatcher.lua里的一个函数，它的功能是创建一个web的调度节点[entry函数定义](https://htmlpreview.github.io/?https://raw.githubusercontent.com/openwrt/luci/master/documentation/api/modules/luci.dispatcher.html#entry)。
+
+entry (path, target, title, order)中的target是当用户请求这个节点的动作，例如call、template、cbi、post。上面代码中的cbi("samba")，指向的是luci/model/cbi/samba.lua这个文件，它用来描述/etc/config/samba这个配置文件。
+
+从目录的路径我们可以知道，luci/controller/samba.lua这个文件其实可以理解为MVC的Controller，luci/model/cbi/samba.lua是MVC的Model，MVC的View在samba这个页面上并没有对应的html文件，其实是已经通过translate函数来实现了。
+>>>>>>> d6e8813449460c628277145e728ca6b4d554746b
