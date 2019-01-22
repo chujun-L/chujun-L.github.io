@@ -5,17 +5,8 @@ title: Hello World
 
 ![]({{ site.baseurl }}/images/config.png)
 
-{% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
 
-{% highlight lua linenos %}
+{% highlight lua %}
 module("luci.controller.samba", package.seeall)
 
 function index()
